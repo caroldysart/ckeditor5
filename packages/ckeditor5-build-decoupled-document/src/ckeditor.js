@@ -204,10 +204,10 @@ DecoupledEditor.defaultConfig = {
     fileName: 'my-file.pdf',
     converterOptions: {
       format: 'Letter',
-      // margin_top: '5mm',
-      // margin_bottom: '3mm',
-      // margin_right: '19mm',
-      // margin_left: '19mm',
+      margin_top: '5mm',
+      margin_bottom: '3mm',
+      margin_right: '19mm',
+      margin_left: '19mm',
       page_orientation: 'portrait'
     }
   },
