@@ -20,8 +20,7 @@
     <div class="editable-container"></div>
 
     <style>
-      /* .ck.ck-content p {
-        line-height: 1.3em;
+      .ck.ck-content p {
         font-size: 1em;
         line-height: 1.3em;
         margin: 0;
@@ -37,16 +36,12 @@
       .ck-content .table {
         margin: 0.5em auto;
         display: table;
-      } */
-      /* .editable-container,
+      }
+      .editable-container,
       .toolbar-container {
         position: relative;
         border: 1px solid #ddd;
         background: #eee;
-      }
-
-      .toolbar-container {
-        padding: 1em;
       }
 
       .editable-container {
@@ -54,25 +49,14 @@
         overflow-y: scroll;
         max-height: 500px;
       }
-
-      .editable-container .document-editor__editable.ck-editor__editable {
-        min-height: 21cm;
-        padding: 2em;
-        border: 1px #d3d3d3 solid;
-        border-radius: var(--ck-border-radius);
-        background: white;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-	  }
-	   */
-      /* .editable-container .document-editor__editable.ck-editor__editable {
-        min-height: 21cm;
-        padding: 2em;
-        border: 1px #d3d3d3 solid;
-        border-radius: var(--ck-border-radius);
-        background: white;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-        font-family: 'Inter, sans-serif';
-      } */
+      .ck.ck-content.ck-editor__editable {
+        margin: auto;
+        /* US Letter size. */
+        width: 215.9mm;
+        padding: 5mm 19mm 19em 19mm;
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+      }
     </style>
 
     <script src="../build/ckeditor.js"></script>
