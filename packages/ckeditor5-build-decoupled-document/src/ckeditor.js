@@ -225,9 +225,12 @@ DecoupledEditor.defaultConfig = {
   },
   licenseKey: 'arJoDAHuz/o4XGurs13+WCpIY1aSjDDWScOA5sIN725wgYTE+Q==',
   cloudServices: {
-    uploadUrl: 'https://76891.cke-cs.com/easyimage/upload/	',
+    uploadUrl: 'https://77617.cke-cs.com/easyimage/upload/',
     tokenUrl:
-      'https://76891.cke-cs.com/token/dev/8900d614c213305ba3b94403772cfe568c7276409bd144b53d6b50740b11'
+      'https://77617.cke-cs.com/token/dev/a9dc92ffb1b5669362fc74d050542f62f2d573964bdc8d80c758a564ca21'
+    // uploadUrl: 'https://76891.cke-cs.com/easyimage/upload/	',
+    // tokenUrl:
+    //   'https://76891.cke-cs.com/token/dev/8900d614c213305ba3b94403772cfe568c7276409bd144b53d6b50740b11'
   },
   image: {
     styles: ['full', 'alignLeft', 'alignRight'],
