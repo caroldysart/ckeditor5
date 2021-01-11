@@ -48,7 +48,8 @@ import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak';
 import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
-// import RestrictedEditingMode from '@ckeditor/ckeditor5-restricted-editing/src/restrictededitingmode';
+import StandardEditingMode from '@ckeditor/ckeditor5-restricted-editing/src/standardeditingmode';
+import RestrictedEditingMode from '@ckeditor/ckeditor5-restricted-editing/src/restrictededitingmode';
 
 export default class DecoupledEditor extends DecoupledEditorBase {}
 const customColorPalette = [
@@ -124,6 +125,7 @@ DecoupledEditor.builtinPlugins = [
   PageBreak,
   Pagination,
   // RestrictedEditingMode,
+  StandardEditingMode,
   TableToolbar,
   TableProperties,
   TableCellProperties
@@ -173,7 +175,8 @@ DecoupledEditor.defaultConfig = {
 
       'exportWord',
       '|',
-      'HorizontalLine'
+      'HorizontalLine',
+      'restrictedEditingException'
       // 'restrictedEditing'
     ]
   },
