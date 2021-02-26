@@ -87,6 +87,7 @@ const customColorPalette = [
 DecoupledEditor.builtinPlugins = [
   Essentials,
   Alignment,
+  EasyImage,
   FontSize,
   FontFamily,
   FontColor,
@@ -175,7 +176,8 @@ DecoupledEditor.defaultConfig = {
 
       'exportWord',
       '|',
-      'HorizontalLine'
+      'HorizontalLine',
+      'imageUpload'
       // 'restrictedEditingException'
       // 'restrictedEditing'
     ]
