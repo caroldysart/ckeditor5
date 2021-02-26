@@ -48,7 +48,7 @@ import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak';
 import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
-// import StandardEditingMode from '@ckeditor/ckeditor5-restricted-editing/src/standardeditingmode';
+// import StandardEditingMode from '  ckeditor/ckeditor5-restricted-editing/src/standardeditingmode';
 // import RestrictedEditingMode from '@ckeditor/ckeditor5-restricted-editing/src/restrictededitingmode';
 
 export default class DecoupledEditor extends DecoupledEditorBase {}
@@ -229,11 +229,11 @@ DecoupledEditor.defaultConfig = {
       borderColors: customColorPalette
     }
   },
-  licenseKey: 'arJoDAHuz/o4XGurs13+WCpIY1aSjDDWScOA5sIN725wgYTE+Q==',
+  licenseKey: 'dbrhjFNgkKIBAf3ThvmvrOBNYFafnCAVLaI/7WtwbcVtzuU0odOsEQqC',
   cloudServices: {
-    uploadUrl: 'https://77617.cke-cs.com/easyimage/upload/',
+    uploadUrl: 'https://78802.cke-cs.com/easyimage/upload/',
     tokenUrl:
-      'https://77617.cke-cs.com/token/dev/a9dc92ffb1b5669362fc74d050542f62f2d573964bdc8d80c758a564ca21'
+      'https://78802.cke-cs.com/token/dev/d9ffbf91f6cd60b143e9727931685948fa89b598f9c7093021a40a7d7dd4'
     // uploadUrl: 'https://76891.cke-cs.com/easyimage/upload/	',
     // tokenUrl:
     //   'https://76891.cke-cs.com/token/dev/8900d614c213305ba3b94403772cfe568c7276409bd144b53d6b50740b11'
